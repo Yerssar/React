@@ -1,0 +1,12 @@
+.homework02 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* width: 100px; */
+    margin-top: 40px;
+  }
+
+  .homework02 > .profile-card{
+    margin: 30px;
+  }
+ 
