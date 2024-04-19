@@ -1,28 +1,28 @@
 import "./styles.css";
-import Input from '../Input/Input';
-import Button from '../Button/Button';
+import Input from "../Input/Input";
+import Button from "../Button/Button";
 
-function LoginForm (){
+function LoginForm() {
   return (
-    <div className="login-form-container">
-      <h2 className="login-heading">Login form</h2>
-      <form className="login-form">
+    <div className="loginform-wrapper">
+      <p className="loginform-name">Login form</p>
+      <div className="inputs-container">
         <Input
-          name="username"
-          type="text"
+          name="login-email"
+          type="email"
           placeholder="Enter your email"
           label="Email"
         />
         <Input
-          name="password"
+          name="login-password"
           type="password"
           placeholder="Enter your password"
           label="Password"
         />
-        <Button name="login" type="submit" />
-      </form>
+      </div>
+      <Button type="submit" name="Login" />
     </div>
   );
-};
+}
 
 export default LoginForm;

@@ -1,25 +1,22 @@
-.login-form-container {
-  width: 590px;
-  height: 450px;
-  top: -296px;
-  Left: -295px;
-  border-radius: 4px;
-  Border: 1px;
-  Padding: 60px;
+.loginform-wrapper {
+  display: flex;
+  flex-direction: column;
   gap: 30px;
-  }
+  width: 590px;
+  height: fit-content;
+  padding: 60px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
 
-  .login-form {
-    width: 470px;
-    height: 176px;
-    gap: 20px;
+.loginform-name {
+  font-size: 24px;
+}
 
-  }
-
-  .login-heading{
-    width: 471 px;
-    height:24px;
-    font: Lato;
-    color: #000000
-  }
-  
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}

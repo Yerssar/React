@@ -1,17 +1,17 @@
-import "./styles.css"
+import "./styles.css";
 
-function Input({ name, type, placeholder, label }){
-    return (
-      <div className="input-wrapper">
-        <label htmlFor={name}>{label}</label>
-        <input
-          type={type}
-          name={name}
-          id={name}
-          placeholder={placeholder}
-        />
-      </div>
-    );
-  };
-  
-  export default Input;
+function Input({ name, type, placeholder, label }) {
+  return (
+    <div className="input-component-container">
+      <label className="input-component-label">{label}</label>
+      <input
+        className="input-component"
+        name={name}
+        type={type}
+        placeholder={placeholder}
+      />
+    </div>
+  );
+}
+
+export default Input;
