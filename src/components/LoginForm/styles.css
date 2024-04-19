@@ -1,0 +1,25 @@
+.login-form-container {
+  width: 590px;
+  height: 450px;
+  top: -296px;
+  Left: -295px;
+  border-radius: 4px;
+  Border: 1px;
+  Padding: 60px;
+  gap: 30px;
+  }
+
+  .login-form {
+    width: 470px;
+    height: 176px;
+    gap: 20px;
+
+  }
+
+  .login-heading{
+    width: 471 px;
+    height:24px;
+    font: Lato;
+    color: #000000
+  }
+  
