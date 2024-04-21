@@ -1,6 +1,7 @@
 import "./styles.css";
 import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
+import Counter from "../../components/Counter/Counter";
 
 function Lesson04() {
   {
@@ -21,15 +22,17 @@ function Lesson04() {
 
   return (
     <div className="lesson04-container">
-      <Input onInputChange={(event) => onChange(event, "value")} />
+      {/* <Input onInputChange={(event) => onChange(event, "value")} /> */}
       {/* 1 способ передачи функции */}
-      <Button name="Func Inner" onButtonClick={() => alert("Hi")} />
-      <Button name="Func Outer" onButtonClick={showMessage} />
+      {/* <Button name="Func Inner" onButtonClick={() => alert("Hi")} />
+      <Button name="Func Outer" onButtonClick={showMessage} /> */}
       {/* 3 способ передачи функции (с параметрами)*/}
-      <Button
+      {/* <Button
         name="Func With Parametrs"
         onButtonClick={() => showNameMessage("Tom")}
-      />
+      /> */}
+
+      <Counter />
     </div>
   );
 }
