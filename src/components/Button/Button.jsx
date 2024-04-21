@@ -1,9 +1,25 @@
 import "./styles.css";
 
-function Button({buttonName = "Get data", isPrimaryButton}) {
-const buttonClass = isPrimaryButton? 'primary-button' : 'secondary-button' ;
-
-  return <button className={buttonClass}>{buttonName}</button>;
+function Button({ name, type = "button", onButtonClick }) {
+  return (
+    <button className="button-component" type={type} onClick={onButtonClick}>
+      {name}
+    </button>
+  );
 }
 
 export default Button;
+
+
+
+// import "./styles.css";
+
+// function Button({ name, type }) {
+//   return (
+//     <button className="button-component" type={type}>
+//       {name}
+//     </button>
+//   );
+// }
+
+// export default Button;
